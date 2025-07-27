@@ -8,5 +8,3 @@ def upload_to_s3(file_path, bucket, access_key, secret_key, region):
                       aws_access_key_id=access_key,
                       aws_secret_access_key=secret_key)
     s3.upload_file(file_path, bucket, f"backups/{file_path}")
-
-
