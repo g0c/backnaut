@@ -1,0 +1,10 @@
+{
+  "source_folder": "C:/Users/Goran/Documents",
+  "exclude_extensions": [".tmp", ".bak"],
+  "s3_bucket": "backnaut-backups",
+  "aws_region": "eu-central-1",
+  "aws_access_key": "AKIA3PJFCMCM3YYYUGWM",
+  "aws_secret_key": "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",
+  "encryption_password": "backnaut_secret",
+  "backup_interval": "daily"
+}

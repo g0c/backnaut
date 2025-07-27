@@ -1,0 +1,11 @@
+backnaut/
+├── config.json              # User settings
+├── backup_launcher.py       # Single-click backup script
+├── modules/
+│   ├── scanner.py           # Folder scanning
+│   ├── compressor.py        # ZIP logic
+│   ├── encryptor.py         # AES encryption
+│   └── aws_uploader.py      # S3 upload function
+├── logs/
+│   └── backup.log           # Backup summary
+└── README.md                # Instructions
